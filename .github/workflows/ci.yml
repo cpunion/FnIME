@@ -23,9 +23,4 @@ jobs:
         run: swift build -c release
 
       - name: Test
-        run: |
-          if [ -d Tests ]; then
-            swift test
-          else
-            echo "No Tests/ directory, skipping tests."
-          fi
+        run: swift test

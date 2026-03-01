@@ -13,6 +13,11 @@ let package = Package(
         .executableTarget(
             name: "FnIME",
             path: "Sources/FnIME"
+        ),
+        .testTarget(
+            name: "FnIMETests",
+            dependencies: [],
+            path: "Tests/FnIMETests"
         )
     ]
 )
