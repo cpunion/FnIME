@@ -1,0 +1,13 @@
+# SwiftPM
+.build/
+.swiftpm/
+
+# Xcode/macOS
+.DS_Store
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+
+# Local runtime artifacts
+*.log
+*.tmp
